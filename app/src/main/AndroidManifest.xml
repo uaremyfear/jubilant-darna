@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.technoverse.sithu.darna">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".MainActivity">
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name=".SetupActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".savehouse.SavehouseActivity"
+            android:label="@string/title_activity_savehouse"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".savehouse.SavehouseDetailActivity" />
+        <activity android:name=".savehouse.SavehouseFilterAcitivity" />
+        <activity android:name=".savehouse.SavehouseCityActivity" />
+        <activity
+            android:name=".organization.OrganizationActivity"
+            android:label="@string/title_activity_organization"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".organization.OrganizationFilterActivity" />
+        <activity android:name=".organization.OrganizationDetailActivity" />
+        <activity
+            android:name=".foundation.FoundationActivity"
+            android:label="@string/title_activity_foundation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".foundation.FoundationFilterActivity" />
+        <activity android:name=".foundation.FoundationDetailActivity" />
+        <activity android:name=".thadin.ThadinActivity" />
+        <activity android:name=".thadin.ThadinDetailActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_savehouse_location"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.malinskiy.superrecyclerview.SuperRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/location_recycler"
+        app:layout_empty="@layout/empty_view"
+        app:layout_moreProgress="@layout/progress_view"
+        app:mainLayoutId="@layout/layout_recyclerview_verticalscroll"
+        app:recyclerClipToPadding="false"
+        app:scrollbarStyle="insideInset"/>
+
+
+
+</LinearLayout>

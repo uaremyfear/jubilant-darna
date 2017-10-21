@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Darna</string>
+    <string name="title_activity_setup">SetupActivity</string>
+    <string name="title">Darna</string>
+    <string name="title_activity_savehouse">SavehouseActivity</string>
+    <string name="title_activity_organization">Organization</string>
+    <string name="title_activity_foundation">Foundation</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="welcome_quote"></string>
+
+    <string-array name="quoteArray">
+        <item>\"Your Greatness is not what you have , it\'s what you give.\"</item>
+        <item>\"Only by giving are you able to receive more than you have.\"</item>
+        <item>\"A Joy that\'s shared is a joy made double .\"</item>
+        <item>\"The more we share, the more we have.\"</item>
+        <item>\"Make a donation, make a difference.\"</item>
+    </string-array>
+
+    <string name="google_maps_key">AIzaSyCM5OnPA9QtpMR2lxSXMHa9VhteLAVEh8k</string>
+    <style name="google_play_services_version"></style>
+
+</resources>

@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_savehouse"
+    android:padding="@dimen/fragment_listing_margin"
+    tools:context="net.technoverse.sithu.darna.savehouse.SavehouseActivity$PlaceholderFragment">
+
+    <com.malinskiy.superrecyclerview.SuperRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cateogry_recycler"
+        app:layout_empty="@layout/empty_view"
+        app:layout_moreProgress="@layout/progress_view"
+        app:mainLayoutId="@layout/layout_recyclerview_verticalscroll"
+        app:recyclerClipToPadding="false"
+        app:scrollbarStyle="insideInset"/>
+
+</RelativeLayout>
